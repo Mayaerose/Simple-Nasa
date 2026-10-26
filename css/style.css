@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #7a6a5e;
+  background-image: url("../assets/img/rocket.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 24px 16px;
+}
+
+/* everything sits in one centered column on a light panel, so the text is easy to read on the photo */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.6;
+  max-width: 70ch;
+  margin: 16px auto 0;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
